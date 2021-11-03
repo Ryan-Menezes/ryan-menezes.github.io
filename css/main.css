@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: 'Open Sans', arial;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #1c1c1c;
+}
+a{
+    color: #1c1c1c;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.btn{
+    padding: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn-primary{
+    background-color: #316ff5;
+}
+.mt-1{
+    margin-top: 20px;
+}
+.mt-2{
+    margin-top: 30px;
+}
+.mt-3{
+    margin-top: 40px;
+}
+.mt-4{
+    margin-top: 50px;
+}
+.mt-5{
+    margin-top: 60px;
+}
+
+.owl-nav button{
+    width: 40px;
+    height: 40px;
+    background-color: white!important;
+    border: 1px solid #9c9c9c!important;
+    color: #1c1c1c!important;
+    font-size: 20px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header .menu{
+    padding: 20px 40px;
+    background-color: #1c1c1c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .menu a{
+    color: #9c9c9c;
+}
+.header .menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header .menu ul li{
+    margin: 10px;
+}
+.header .banner{
+    background-image: url('../img/banner.svg');
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .banner .sep{
+    padding: 0px 80px 150px;
+    color: white;
+    font-size: 18px;
+}
+.header .banner .sep img{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    padding: 40px;
+}
+
+
+/* SOCIAL */
+.social{
+    position: fixed;
+    top: calc(50% - 150px);
+    left: 0px;
+    z-index: 999;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    transition-duration: 0.3s;
+}
+.social ul li:hover{
+    width: 60px;
+}
+.social a{
+    color: white;
+}
+.social a:hover{
+    text-decoration: none;
+}
+.social .linkedin-bg{
+    background-color: #0A66C2;
+}
+.social .mail-bg{
+    background-color: #FC361C;
+}
+
+/* CONTAINER */
+.container{
+    width: 80%;
+    margin-left: 10%;
+}
+.container .section{
+    padding-bottom: 40px;
+}
+.container .section .title{
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .section .title span{
+    color: #2e2e2e;
+    margin-bottom: 10px;
+}
+.container .section p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* CONTAINER > PROJECTS */
+.projects .item{
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    /* box-shadow: 0px 0px 5px 10px #d9d9d9; */
+    overflow: hidden;
+}
+.projects .item .pj-image img{
+    width: 100%;
+    overflow: hidden;
+}
+.projects .item .pj-desc{
+    padding: 20px;
+}
+.projects .item .pj-desc h3{
+    margin-bottom: 10px;
+}
+.projects .item .pj-desc p{
+    font-size: 14px;
+}
+
+/* TIMELINE */
+.timeline{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.timeline .timeline-content{
+    text-align: center;
+    padding: 20px;
+    padding-top: 80px;
+    position: relative;
+}
+.timeline .timeline-content h3{
+    margin-bottom: 10px;
+}
+.timeline .timeline-year{
+    padding: 20px;
+    background-color: #316ff5;
+    color: white;
+    position: absolute;
+    top: 0px;
+}
+.timeline .timeline-left{
+    border-right: 5px solid #316ff5;
+}
+.timeline .timeline-right{
+    border-left: 5px solid #316ff5;
+}
+.timeline .timeline-left .timeline-year{
+    right: 0px;
+}
+.timeline .timeline-right .timeline-year{
+    left: 0px;
+}
+
+/* CONTAINER > SKILLS */
+.skills .item{
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    padding: 20px;
+    overflow: hidden;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.skills .item span{
+    font-size: 37px;
+}
+.skills .item h3{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.html-color{
+    color: #E34F26;
+}
+.js-color{
+    color: #F7DF1E;
+}
+.css-color{
+    color: #1572B6;
+}
+.php-color{
+    color: #777BB4;
+}
+.laravel-color{
+    color: #FF2D20;
+}
+.mysql-color{
+    color: #4C7EFC;
+}
+.c-sharp-color{
+    color: #8C1CFC;
+}
+.c-color{
+    color: #239120;
+}
+.git-color{
+    color: #E34F26;
+}
