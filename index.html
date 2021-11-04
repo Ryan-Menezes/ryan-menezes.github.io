@@ -9,8 +9,8 @@
 	<meta name="google-site-verification" content="3PxP-9UG-ZGkVVCtbDVOfA2GJnpuqzAKQdXkgE00wPQ" />
     <title>Ryan Menezes - Desenvolvedor Web Jr | HTML | CSS | JavaScript | PHP | MySql</title>
     <!-- OWLCAROUSEL -->
-    <link rel="stylesheet" type="text/css" href="js/libs/jquery/OwlCarousel/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="js/libs/jquery/OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/libs/jquery/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/libs/jquery/owl.theme.default.min.css">
 
     <!-- FONTAWESOMES -->
     <link rel="stylesheet" type="text/css" href="css/libs/fontawesome/css/all.min.css">
@@ -53,9 +53,11 @@
     <!-- START SOCIAL -->
     <div class="social">
         <ul>
-            <a href="" target="_blank" title=""><li class="linkedin-bg"><i class="fab fa-linkedin-in"></i></li></a>
-            <a href="" target="_blank" title=""><li><i class="fab fa-github"></i></li></a>
-            <a href="" target="_blank" title=""><li class="mail-bg"><i class="fas fa-envelope"></i></li></a>
+            <a href="https://www.linkedin.com/in/ryan-menezes-845080201/" target="_blank" title="Linkedin"><li class="linkedin-bg"><i class="fab fa-linkedin-in"></i></li></a>
+            <a href="https://github.com/Ryan-Menezes" target="_blank" title="Github"><li><i class="fab fa-github"></i></li></a>
+            <a href="https://gitlab.com/Ryan-Menezes" target="_blank" title="Gitlab"><li class="gitlab-bg"><i class="fab fa-gitlab"></i></li></a>
+            <a href="mailto:menezesryan1010@gmail.com" target="_blank" title="E-Mail"><li class="mail-bg"><i class="fas fa-envelope"></i></li></a>
+            <a href="https://wa.me/5511951494155?text=Olá Ryan" target="_blank" title="WhatsApp"><li class="whatsapp-bg"><i class="fab fa-whatsapp"></i></li></a>
         </ul>
     </div>
     <!-- END SOCIAL -->
@@ -83,7 +85,7 @@
                 <span>Veja meus projetos</span>
                 <h2>Projetos</h2>
             </div>
-            <div class="projects owl-carousel owl-theme" data-items="3">
+            <div class="projects owl-carousel owl-theme">
                 <div class="item">
                     <div class="pj-image">
                         <img src="img/projects/peach.jpg" title="" alt="">
@@ -165,7 +167,7 @@
                 <span>Minhas habilidades como desenvolvedor</span>
                 <h2>Habilidades</h2>
             </div>
-            <div class="skills owl-carousel owl-theme" data-items="4">
+            <div class="skills owl-carousel owl-theme">
                 <div class="item">
                     <i class="fab fa-html5 html-color"></i>
                     <h3>HTML 5</h3>
@@ -228,17 +230,92 @@
             </div>
         </section>
         <!-- END EXPERIENCE -->
+
+        <!-- START CONTACT -->
+        <section id="contact" class="section">
+            <div class="title">
+                <span>Entre em contato</span>
+                <h2>Contato</h2>
+            </div>
+            <div class="contac-cont">
+                <div class="seg">
+                    <h3>Entre em contato preenchendo o formulário, ou por:</h3>
+                    <div class="c-op mt-2">
+                        <a href="mailto:menezesryan1010@gmail.com" title="Contato por E-Mail" target="_blank">
+                            <div class="contact-op mail-bg">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/5511951494155?text=Olá Ryan" title="Contato por WhatsApp" class="ml-1" target="_blank">
+                            <div class="contact-op whatsapp-bg">
+                                <i class="fab fa-whatsapp"></i> 
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form method="POST" action="#" class="seg form-ajax form-validate">
+                    <div class="input-control">
+                        <input type="text" name="name" placeholder="Nome" class="input required">
+                    </div>
+                    <div class="division">
+                        <div class="input-control">
+                            <input type="email" name="email" placeholder="E-Mail" class="input required email">
+                        </div>
+                        <div class="input-control">
+                            <input type="text" name="phone" placeholder="Telefone" class="input required phone-mask">
+                        </div>
+                    </div>    
+                    <div class="input-control">
+                        <input type="text" name="subject" placeholder="Assunto" class="input required">
+                    </div>
+                    <div class="input-control">
+                        <textarea name="message" placeholder="Mensagem" class="input required"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar <i class="fas fa-share"></i></button>
+                </form>
+            </div>
+        </section>
+        <!-- END CONTACT -->
     </section>
     <!-- END CONTAINER -->
 
     <!-- START FOOTER -->
     <footer class="footer">
-        
+        <div class="info">
+            <ul>
+                <li><h2>Menu</h2></li>
+                <li><a href="#home" title="Início"><i class="fas fa-home"></i> Início</a></li>
+                <li><a href="#about" title="Saiba mais sobre mim"><i class="fas fa-user"></i> Sobre Mim</a></li>
+                <li><a href="#projects" title="Veja meus projetos"><i class="fas fa-list-alt"></i> Projetos</a></li> 
+                <li><a href="#skills" title="Minhas habilidades como desenvolvedor"><i class="fas fa-user"></i> Habilidades</a></li>        
+            </ul>
+            <ul class="mt-4">        
+                <li><a href="#schooling" title="Minha experiência acadêmica"><i class="fas fa-graduation-cap"></i> Escolaridade</a></li>
+                <li><a href="#experience" title="Minha experiência na profissional"><i class="fas fa-laptop-code"></i> Experiência</a></li>
+                <li><a href="#contact" title="Entre em contato"><i class="fas fa-phone-alt"></i> Contato</a></li>
+            </ul>
+            <ul>
+                <li><h2>Contato & Redes Sociais</h2></li>
+                <li><a href="https://www.linkedin.com/in/ryan-menezes-845080201/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i> Linkedin</a></li>
+                <li><a href="https://github.com/Ryan-Menezes" target="_blank" title="Github"><i class="fab fa-github"></i> Gitihub</a></li>
+                <li><a href="https://gitlab.com/Ryan-Menezes" target="_blank" title="Gitlab"><i class="fab fa-gitlab"></i> Gitlab</a></li>
+            </ul>
+            <ul class="mt-4">        
+                <li><a href="mailto:menezesryan1010@gmail.com" target="_blank" title="E-Mail"><i class="fas fa-envelope"></i> menezesryan1010@gmail.com</a></li>
+                <li><a href="https://wa.me/5511951494155?text=Olá Ryan" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i> (11)95149-4155</a></li>
+            </ul>
+        </div>
+        <div class="copy">
+            <p>Ryan Menezes &copy; 2021 | Todos os direitos reservados</p>
+        </div>
     </footer>
     <!-- END FOOTER -->
 
     <script type="text/javascript" src="js/libs/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="js/libs/jquery/OwlCarousel/dist/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery/jquery.validate.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

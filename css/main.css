@@ -6,6 +6,7 @@
     box-sizing: content-box;
     font-family: 'Open Sans', arial;
     scroll-behavior: smooth;
+    outline: none;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -28,6 +29,9 @@ a:hover{
 .btn-primary{
     background-color: #316ff5;
 }
+.mt-0{
+    margin-top: 0px;
+}
 .mt-1{
     margin-top: 20px;
 }
@@ -42,6 +46,54 @@ a:hover{
 }
 .mt-5{
     margin-top: 60px;
+}
+
+.ml-0{
+    margin-left: 0px;
+}
+.ml-1{
+    margin-left: 20px;
+}
+.ml-2{
+    margin-left: 30px;
+}
+.ml-3{
+    margin-left: 40px;
+}
+.ml-4{
+    margin-left: 50px;
+}
+.ml-5{
+    margin-left: 60px;
+}
+
+.p-1{
+    padding: 0px;
+}
+.p-1{
+    padding: 20px;
+}
+.p-2{
+    padding: 30px;
+}
+.p-3{
+    padding: 40px;
+}
+.p-4{
+    padding: 50px;
+}
+.p-5{
+    padding: 60px;
+}
+
+span.error{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #b00917;
+}
+textarea.error, 
+input.error{
+    border: 1px solid #b00917;
 }
 
 .owl-nav button{
@@ -105,7 +157,7 @@ a:hover{
 /* SOCIAL */
 .social{
     position: fixed;
-    top: calc(50% - 150px);
+    top: calc(50% - 250px);
     left: 0px;
     z-index: 999;
 }
@@ -132,11 +184,21 @@ a:hover{
 .social a:hover{
     text-decoration: none;
 }
-.social .linkedin-bg{
+.social .linkedin-bg,
+.linkedin-bg{
     background-color: #0A66C2;
 }
-.social .mail-bg{
+.social .mail-bg,
+.mail-bg{
     background-color: #FC361C;
+}
+.social .whatsapp-bg,
+.whatsapp-bg{
+    background-color: #00E676;
+}
+.social .gitlab-bg,
+.gitlab-bg{
+    background-color: #292961;
 }
 
 /* CONTAINER */
@@ -264,4 +326,88 @@ a:hover{
 }
 .git-color{
     color: #E34F26;
+}
+
+/* CONTAINER > CONTACT */
+.contac-cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contac-cont .seg{
+    display: flex;
+    flex-direction: column;
+}
+.contac-cont .seg h3{
+    text-align: center;
+}
+.contac-cont .seg .c-op{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contac-cont .seg .c-op .contact-op{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.contac-cont .seg a:hover{
+    text-decoration: none;
+}
+.contac-cont form .input-control{
+    display: flex;
+    flex-direction: column;
+}
+.contac-cont form .input-control .input{
+    padding: 15px;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 10px;
+}
+.contac-cont form .input-control input.error,
+.contac-cont form .input-control textarea.error{
+    border: 1px solid #b00917;
+}
+.contac-cont form .division{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+}
+.contac-cont form .btn{
+    padding: 15px;
+    font-size: 15px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #1c1c1c;
+    color: white;
+}
+.footer .info{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+}
+.footer .info h2{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer .info ul{
+    list-style: none;
+    padding: 15px;
+    width: 25%;
+}
+.footer .info ul li{
+    padding: 5px 0px;
+}
+.footer .copy{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.footer a{
+    color: #9c9c9c;
 }
