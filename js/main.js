@@ -24,14 +24,31 @@ $(document).ready(function(){
     })
 
     // FORM-VALIDATE
-    $('*').delegate('.form-validate', 'focus', function(){
-        $(this).validate({
-            errorElement: 'span',
-            messages: {
-                required: 'Este campo é obrigatório',
-                email: 'Por favor entre com um email válido'
-            }
-        })
+    $('.form-validate').validate({
+        errorElement: 'span',
+        messages: {
+            required: 'Este campo é obrigatório',
+            email: 'Por favor entre com um email válido'
+        }
+    })
+
+    // FORM SUBMIT AJAX
+    $('.form-ajax').submit(function(event){
+        event.preventDefault()
+        let form = this
+        let data = new FormData(form)
+
+        // SEND EMAIL
+        // $.ajax({
+        //     url: form.action,
+        //     method: form.method,
+        //     data: data,
+        //     processData: false,
+        //     contentType: false,
+        //     dataType: 'json'
+        // })
+
+        // form.reset()
     })
 
     $(document).scroll(function(){
