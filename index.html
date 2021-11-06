@@ -9,25 +9,27 @@
 	<meta name="google-site-verification" content="3PxP-9UG-ZGkVVCtbDVOfA2GJnpuqzAKQdXkgE00wPQ" />
     <title>Ryan Menezes - Desenvolvedor Web Jr | HTML | CSS | JavaScript | PHP | MySql</title>
     <!-- OWLCAROUSEL -->
-    <link rel="stylesheet" type="text/css" href="css/libs/jquery/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="css/libs/jquery/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/libs/jquery/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/libs/jquery/owl.theme.default.min.css">
 
     <!-- FONTAWESOMES -->
-    <link rel="stylesheet" type="text/css" href="css/libs/fontawesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="css/libs/fontawesome/css/brands.min.css">
-    <link rel="stylesheet" type="text/css" href="css/libs/fontawesome/css/fontawesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/libs/fontawesome/css/regular.min.css">
-    <link rel="stylesheet" type="text/css" href="css/libs/fontawesome/css/solid.min.css">
-    <link rel="stylesheet" type="text/css" href="css/libs/fontawesome/css/svg-with-js.min.css">
-    <link rel="stylesheet" type="text/css" href="css/libs/fontawesome/css/v4-shims.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/libs/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/libs/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/libs/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/libs/fontawesome/css/regular.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/libs/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/libs/fontawesome/css/svg-with-js.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/libs/fontawesome/css/v4-shims.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
     <!-- START HEADER -->
-    <header class="header">
+    <header class="header" id="home">
         <nav class="menu">
             <h1><a href="#home" title="Início">Ryan Menezes</a></h1>
+            <span class="ham">&#x2630;</span>
             <ul>
+                <li class="close-menu"><div>X</div></li>
                 <li><a href="#home" title="Início"><i class="fas fa-home"></i> Início</a></li>
                 <li><a href="#about" title="Saiba mais sobre mim"><i class="fas fa-user"></i> Sobre Mim</a></li>
                 <li><a href="#projects" title="Veja meus projetos"><i class="fas fa-list-alt"></i> Projetos</a></li>
@@ -39,12 +41,13 @@
         </nav>
         <div class="banner">
             <div class="sep">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quo vero laudantium non, doloribus aliquid ipsum repellendus blanditiis tempore, eligendi a expedita quaerat iusto quas, itaque facere eos ullam pariatur.</p>
+                <h2>Olá, Seja bem vindo(a) ao meu portfólio!</h2>
+                <p class="mt-1">Por aqui você terá as principais informações sobre minha carreira profissional como desenvolvedor.</p>
 
-                <a herf="#" download="" title=""><button class="btn btn-primary mt-2"><i class="fas fa-download"></i> Baixar Curriculo</button></a>
+                <a href="assets/files/Ryan-Menezes-Curriculo.pdf" download="Ryan-Menezes-Curriculo.pdf" target="_blank" title="Baixe o meu currículo"><button class="btn btn-primary mt-2"><i class="fas fa-download"></i> Baixar Curriculo</button></a>
             </div>
             <div class="sep">
-                <img src="img/foto.jpg" title="Ryan de Menezes Nobre Ciriaco" alt="Ryan de Menezes Nobre Ciriaco"/>
+                <img src="assets/img/foto.jpg" title="Ryan de Menezes Nobre Ciriaco" alt="Ryan de Menezes Nobre Ciriaco"/>
             </div>
         </div>
     </header>
@@ -71,10 +74,9 @@
                 <h2>Sobre Mim</h2>
             </div>
             <div>
-                <p>Sou um jovem desenvolvedor de 18 anos </p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint voluptas numquam deserunt magnam alias nostrum beatae quos, aut perferendis vitae? Quibusdam omnis nobis assumenda necessitatibus unde quos modi sint cum?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint voluptas numquam deserunt magnam alias nostrum beatae quos, aut perferendis vitae? Quibusdam omnis nobis assumenda necessitatibus unde quos modi sint cum?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint voluptas numquam deserunt magnam alias nostrum beatae quos, aut perferendis vitae? Quibusdam omnis nobis assumenda necessitatibus unde quos modi sint cum?</p>
+                <p>Jovem desenvolvedor de 18 anos, apaixonado por programação, principalmente pela área da web. No momento utiliza PHP junto com o framework laravel, como linguagem principal de desenvolvimento, porém possui ótimos conhecimento em HTML, CSS, JavaScript e jQuery.</p>
+                <p>Deu seus primeiros passos como programador atrávez do curso Técnico em Desenvolvimento de Sistemas na <a href="http://www.etecjk.com/" title="ETEC Juscelino Kubitschek de Oliveira" target="_blank">ETEC Juscelino Kubitschek de Oliveira</a>, na segunda metade de 2019.</p>
+                <p>Extremamente dedicado no que faz, sempre em busca de novos conhecimentos e aprendizados, assim evoluindo dia após dia como profissional.</p>
             </div>
         </section>
         <!-- END ABOUT -->
@@ -88,7 +90,7 @@
             <div class="projects owl-carousel owl-theme">
                 <div class="item">
                     <div class="pj-image">
-                        <img src="img/projects/veiculos.jpg" title="Site Veículos" alt="Site Veículos">
+                        <img src="assets/img/projects/veiculos.jpg" title="Site Veículos" alt="Site Veículos">
                     </div>
                     <div class="pj-desc">
                         <h3><a href="https://github.com/Ryan-Menezes/Veiculos" title="Código fonte do projeto Veículos" target="_blank">Veículos</a></h3>
@@ -98,17 +100,17 @@
                 </div>
                 <div class="item">
                     <div class="pj-image">
-                        <img src="img/projects/hoteis.jpg" title="Site Hoteis" alt="Site Hoteis">
+                        <img src="assets/img/projects/hoteis.jpg" title="Site Hoteis" alt="Site Hoteis">
                     </div>
                     <div class="pj-desc">
-                        <h3><a href="https://github.com/Ryan-Menezes/HOTEIS" title="Código fonte do projeto Hoteis" target="_blank">Hoteis</a></h3>
-                        <p>Sistema hoteleiro, para gerenciamento de hoteis ou qualquer outro tipo de serviço de reserva relacionado.</p>
+                        <h3><a href="https://github.com/Ryan-Menezes/HOTEIS" title="Código fonte do projeto Hoteis" target="_blank">Hotéis</a></h3>
+                        <p>Sistema hoteleiro, para gerenciamento de hotéis ou qualquer outro tipo de serviço de reserva relacionado.</p>
                         <a href="https://github.com/Ryan-Menezes/HOTEIS" title="Código fonte do projeto Hoteis" target="_blank"><small><i class="fas fa-code"></i> Código Fonte</small></a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="pj-image">
-                        <img src="img/projects/nave.jpg" title="Jogo de Nave" alt="Jogo de Nave">
+                        <img src="assets/img/projects/nave.jpg" title="Jogo de Nave" alt="Jogo de Nave">
                     </div>
                     <div class="pj-desc">
                         <h3><a href="https://github.com/Ryan-Menezes/Nave" title="Código fonte do projeto Nave" target="_blank">Nave</a></h3>
@@ -118,7 +120,7 @@
                 </div>
                 <div class="item">
                     <div class="pj-image">
-                        <img src="img/projects/asteroids.jpg" title="Jogo Asteroids" alt="Jogo Asteroids">
+                        <img src="assets/img/projects/asteroids.jpg" title="Jogo Asteroids" alt="Jogo Asteroids">
                     </div>
                     <div class="pj-desc">
                         <h3><a href="https://ryan-menezes.github.io/Asteroids/" title="Jogo Asteroids" target="_blank">Asteroids</a></h3>
@@ -128,7 +130,7 @@
                 </div>
                 <div class="item">
                     <div class="pj-image">
-                        <img src="img/projects/seguros.jpg" title="Site Seguros" alt="Site Seguros">
+                        <img src="assets/img/projects/seguros.jpg" title="Site Seguros" alt="Site Seguros">
                     </div>
                     <div class="pj-desc">
                         <h3><a href="https://ryan-menezes.github.io/SiteSeguros" title="Site Seguros" target="_blank">Seguros</a></h3>
@@ -138,7 +140,7 @@
                 </div>
                 <div class="item">
                     <div class="pj-image">
-                        <img src="img/projects/tccbiblioteca.jpg" title="TCC Biblioteca" alt="TCC Biblioteca">
+                        <img src="assets/img/projects/tccbiblioteca.jpg" title="TCC Biblioteca" alt="TCC Biblioteca">
                     </div>
                     <div class="pj-desc">
                         <h3><a href="https://github.com/Ryan-Menezes/TCCBiblioteca" title="Código fonte do projeto TCC Biblioteca" target="_blank">TCC Biblioteca</a></h3>
@@ -148,7 +150,7 @@
                 </div>
                 <div class="item">
                     <div class="pj-image">
-                        <img src="img/projects/gamenave.jpg" title="Jogo da Navinha em JavaScript" alt="Jogo da Navinha em JavaScript">
+                        <img src="assets/img/projects/gamenave.jpg" title="Jogo da Navinha em JavaScript" alt="Jogo da Navinha em JavaScript">
                     </div>
                     <div class="pj-desc">
                         <h3><a href="https://ryan-menezes.github.io/GameNave/" title="Jogo da Navinha em JavaScript" target="_blank">Jogo de Navinha</a></h3>
@@ -158,7 +160,7 @@
                 </div>
                 <div class="item">
                     <div class="pj-image">
-                        <img src="img/projects/pong.jpg" title="Jogo Pong" alt="Jogo Pong">
+                        <img src="assets/img/projects/pong.jpg" title="Jogo Pong" alt="Jogo Pong">
                     </div>
                     <div class="pj-desc">
                         <h3><a href="https://ryan-menezes.github.io/Pong/" title="Jogo Pong" target="_blank">Pong</a></h3>
@@ -168,7 +170,7 @@
                 </div>
                 <div class="item">
                     <div class="pj-image">
-                        <img src="img/projects/snake.jpg" title="Jogo Snake" alt="Jogo Snake">
+                        <img src="assets/img/projects/snake.jpg" title="Jogo Snake" alt="Jogo Snake">
                     </div>
                     <div class="pj-desc">
                         <h3><a href="https://github.com/Ryan-Menezes/Snake/" title="Código fonte do projeto Snake" target="_blank">Snake</a></h3>
@@ -178,7 +180,7 @@
                 </div>
                 <div class="item">
                     <div class="pj-image">
-                        <img src="img/projects/jump.jpg" title="Jogo Jump" alt="Jogo Jump">
+                        <img src="assets/img/projects/jump.jpg" title="Jogo Jump" alt="Jogo Jump">
                     </div>
                     <div class="pj-desc">
                         <h3><a href="https://ryan-menezes.github.io/JumpJump/" title="Jogo Jump" target="_blank">Jump Jump</a></h3>
@@ -210,7 +212,7 @@
                     <div class="timeline-content">
                         <div class="timeline-year">2018 - 2020</div>
                         <h3>Ensino Médio | <a href="http://www.educacao.sp.gov.br/cgrh/escolas/jose-marcato/" title="E.E. José Marcato" target="_blank">E.E. José Marcato</a></h3>
-                        <p>Conclui meu ensíno médio em Diadema na Escola Estatual José Marcato.</p>
+                        <p>Conclui meu ensino médio em Diadema na Escola Estatual José Marcato.</p>
                     </div>
                 </div>
             </div>
@@ -286,7 +288,7 @@
                     <div class="timeline-content">
                         <div class="timeline-year">2020</div>
                         <h3>Resolução de bugs e implementação de novas funcionalidades | <a href="https://terrasuldigital.com.br/" title="Terra Sul Digital" target="_blank">Terra Sul Digital</a></h3>
-                        <p>No meu primeiro trabalho como freelancer, tive que resolver alguns bugs e implementar novas funcionalidades num sistema para gerênciamento de escolas, utilizei a linguagem PHP no backend para ralizar essas tarefas, junto com HTML, CSS e JavaScript no frontend.</p>
+                        <p>No meu primeiro trabalho como freelancer, tive que resolver alguns bugs e implementar novas funcionalidades num sistema para gerenciamento de escolas, utilizei a linguagem PHP no backend para realizar essas tarefas, junto com HTML, CSS e JavaScript no frontend.</p>
                     </div>
                 </div>
             </div>
@@ -374,10 +376,10 @@
     </footer>
     <!-- END FOOTER -->
 
-    <script type="text/javascript" src="js/libs/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="js/libs/jquery/jquery.maskedinput.min.js"></script>
-    <script type="text/javascript" src="js/libs/jquery/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/libs/jquery/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="assets/js/libs/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/libs/jquery/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="assets/js/libs/jquery/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/libs/jquery/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
