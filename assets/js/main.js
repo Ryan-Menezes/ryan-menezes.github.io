@@ -7,7 +7,19 @@ $(document).ready(function(){
         margin: 10,
         nav: true,
         dots: false,
-        items: 3
+        items: 3,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items: 1
+            },
+            700:{
+                items: 2
+            },
+            1000:{
+                items: 3
+            }
+        }
     })
 
     // MASK
@@ -51,12 +63,33 @@ $(document).ready(function(){
         // form.reset()
     })
 
+    // MENU
+    $('.open-menu').click(function(){
+        let menu = this.dataset.menu
+
+        if(menu !== undefined) $(menu).css('right', '0px')
+    })
+
+    $('.close-menu').click(function(){
+        let menu = this.dataset.menu
+
+        if(menu !== undefined) $(menu).css('right', '-100%')
+    })
+
     $(document).scroll(function(){
         let top = window.document.documentElement.scrollTop
 
-        if(top > 500)
+        if(top > 500){
             $('.social').show('slow')
-        else
+            $('.header .menu').css({
+                position: 'fixed'
+            })
+        }
+        else{
             $('.social').hide('slow')
+            $('.header .menu').css({
+                position: 'relative'
+            })
+        }
     })
 })
