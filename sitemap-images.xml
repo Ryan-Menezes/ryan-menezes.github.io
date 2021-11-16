@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 	<url>
-		<loc>https://ryan-menezes.github.io/Portfolio/</loc>
+		<loc>https://ryan-menezes.github.io/</loc>
   		<image:image>
-	      	<image:loc>https://ryan-menezes.github.io/Portfolio/assets/img/foto.jpg</image:loc>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/foto.jpg</image:loc>
 	      	<image:caption>Ryan de Menezes Nobre Ciriaco</image:caption>
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Ryan de Menezes Nobre Ciriaco</image:title>
 	    </image:image>
 	    <image:image>
-	      	<image:loc>https://ryan-menezes.github.io/Portfolio/assets/img/projects/asteroids.jpg</image:loc>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/asteroids.jpg</image:loc>
 	      	<image:caption>Jogo Asteroids</image:caption>
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Jogo Asteroids</image:title>
 	    </image:image>
 	    <image:image>
-	      	<image:loc>https://ryan-menezes.github.io/Portfolio/assets/img/projects/gamenave.jpg</image:loc>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/gamenave.jpg</image:loc>
 	      	<image:caption>Jogo de Navinha</image:caption>
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Jogo de Navinha</image:title>
 	    </image:image>
 	    <image:image>
-	      	<image:loc>https://ryan-menezes.github.io/Portfolio/assets/img/projects/hoteis.jpg</image:loc>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/hoteis.jpg</image:loc>
 	      	<image:caption>Site Hoteis</image:caption>
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Site Hoteis</image:title>
 	    </image:image>
 	    <image:image>
-	      	<image:loc>https://ryan-menezes.github.io/Portfolio/assets/img/projects/jump.jpg</image:loc>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/jump.jpg</image:loc>
 	      	<image:caption>Jogo Jump</image:caption>
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Jogo Jump</image:title>
 	    </image:image>
 	    <image:image>
-	      	<image:loc>https://ryan-menezes.github.io/Portfolio/assets/img/projects/nave.jpg</image:loc>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/nave.jpg</image:loc>
 	      	<image:caption>Jogo Nave</image:caption>
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Jogo Nave</image:title>
 	    </image:image>
 	    <image:image>
-	      	<image:loc>https://ryan-menezes.github.io/Portfolio/assets/img/projects/pong.jpg</image:loc>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/pong.jpg</image:loc>
 	      	<image:caption>Jogo Pong</image:caption>
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Jogo Pong</image:title>
 	    </image:image>
 	    <image:image>
-	      	<image:loc>https://ryan-menezes.github.io/Portfolio/assets/img/projects/seguros.jpg</image:loc>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/seguros.jpg</image:loc>
 	      	<image:caption>Site Seguros</image:caption>
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Site Seguros</image:title>
 	    </image:image>
 	    <image:image>
-	      	<image:loc>https://ryan-menezes.github.io/Portfolio/assets/img/projects/snake.jpg</image:loc>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/snake.jpg</image:loc>
 	      	<image:caption>Jogo Snake</image:caption>
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Jogo Snake</image:title>
 	    </image:image>
 	    <image:image>
-	      	<image:loc>https://ryan-menezes.github.io/Portfolio/assets/img/projects/tccbiblioteca.jpg</image:loc>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/tccbiblioteca.jpg</image:loc>
 	      	<image:caption>Site TCC Biblioteca</image:caption>
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Site TCC Biblioteca</image:title>
 	    </image:image>
 	    <image:image>
-	      	<image:loc>https://ryan-menezes.github.io/Portfolio/assets/img/projects/veiculos.jpg</image:loc>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/veiculos.jpg</image:loc>
 	      	<image:caption>Site Veículos</image:caption>
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Site Veículos</image:title>
