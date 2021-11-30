@@ -68,5 +68,11 @@
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Site Veículos</image:title>
 	    </image:image>
+	    <image:image>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/noticias.jpg</image:loc>
+	      	<image:caption>Site Notícias</image:caption>
+	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
+	      	<image:title>Site Notícias</image:title>
+	    </image:image>
 	</url>
 </urlset>

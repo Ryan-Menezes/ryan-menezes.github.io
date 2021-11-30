@@ -45,23 +45,48 @@ $(document).ready(function(){
     })
 
     // FORM SUBMIT AJAX
-    $('.form-ajax').submit(function(event){
+    /*
+    $('.form-ajax').submit(async function(event){
         event.preventDefault()
+
         let form = this
-        let data = new FormData(form)
+        let dataForm = new FormData(form)
+        let data = {
+            'personalizations': [
+                {
+                    'to': [
+                        {
+                            'email': dataForm.get('email')
+                        }
+                    ]
+                }
+            ],
+            'from': {
+                'email': 'menezesryan1010@gmail.com'
+            },
+            'subject': dataForm.get('subject'),
+            'content': [
+                {
+                    'type': 'text/plain', 
+                    'value': dataForm.get('message')
+                }
+            ]
+        }
 
-        // SEND EMAIL
-        // $.ajax({
-        //     url: form.action,
-        //     method: form.method,
-        //     data: data,
-        //     processData: false,
-        //     contentType: false,
-        //     dataType: 'json'
-        // })
+        let result = await fetch('https://api.sendgrid.com/v3/mail/send', {
+            mode: 'cors',
+            credentials: 'include',
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer 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'
+            },
+            body: JSON.stringify(data)
+        })
 
-        // form.reset()
+        $(form).trigger('reset')
     })
+    */
 
     // MENU
     $('.open-menu').click(function(){

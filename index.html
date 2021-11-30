@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RDYB9177P8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-RDYB9177P8');
+    </script>
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+	  	"@type": "WebPage",
+	  	"@id": "https://ryan-menezes.github.io/",
+	  	"breadcrumb": "Início",
+	  	"lastReviewed": "2021-11-30",
+	  	"primaryImageOfPage": "https://ryan-menezes.github.io/assets/img/foto.jpg",
+	  	"reviewedBy": "Ryan de Menezes Nobre Ciriaco",
+	  	"specialty": "HTML, CSS, JavaScript, jQuery, PHP, Laravel, MySql",
+	  	"description": "Jovem desenvolvedor de 18 anos, apaixonado por programação, principalmente pela área da web. No momento utiliza PHP junto com o framework laravel, como linguagem principal de desenvolvimento, porém possui ótimos conhecimento em HTML, CSS, JavaScript e jQuery.",
+	  	"about": "Jovem desenvolvedor de 18 anos, apaixonado por programação, principalmente pela área da web. No momento utiliza PHP junto com o framework laravel, como linguagem principal de desenvolvimento, porém possui ótimos conhecimento em HTML, CSS, JavaScript e jQuery.",
+	  	"accountablePerson": "Ryan de Menezes Nobre Ciriaco",
+	  	"author": "Ryan de Menezes Nobre Ciriaco",
+	  	"keywords": "ryan, menezes, nobre, ciriaco, desenvolvedor, web, junior, jr, html, css, javascript, js, php, mysql, jquery, freelancer",
+	  	"learningResourceType": "presentation",
+	  	"isFamilyFriendly": true,
+	  	"license": "MIT",
+	  	"thumbnailUrl": "https://ryan-menezes.github.io/assets/img/foto.jpg",
+	  	"image": "https://ryan-menezes.github.io/assets/img/foto.jpg",
+	  	"url": "https://ryan-menezes.github.io/"
+	}
+	</script>
+	
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Jovem desenvolvedor de 18 anos, apaixonado por programação, principalmente pela área da web. No momento utiliza PHP junto com o framework laravel, como linguagem principal de desenvolvimento, porém possui ótimos conhecimento em HTML, CSS, JavaScript e jQuery.">
 	<meta name="keywords" content="ryan, menezes, nobre, ciriaco, desenvolvedor, web, junior, jr, html, css, javascript, js, php, mysql, jquery, freelancer">
 	<meta name="google-site-verification" content="3PxP-9UG-ZGkVVCtbDVOfA2GJnpuqzAKQdXkgE00wPQ" />
-    <title>Ryan Menezes - Desenvolvedor Web Jr | HTML | CSS | JavaScript | PHP | MySql</title>
+    <title>Ryan Menezes - Desenvolvedor Web Jr | HTML | CSS | JavaScript | jQuery | PHP | Laravel | MySql</title>
 
     <!-- OWLCAROUSEL -->
     <link rel="stylesheet" type="text/css" href="assets/css/libs/jquery/owl.carousel.min.css">
@@ -89,7 +123,17 @@
                 <span>Veja meus projetos</span>
                 <h2>Projetos</h2>
             </div>
-            <div class="projects owl-carousel owl-theme">
+            <div class="projects">
+                <div class="item">
+                    <div class="pj-image">
+                        <img src="assets/img/projects/noticias.jpg" title="Site Notícias" alt="Site Notícias">
+                    </div>
+                    <div class="pj-desc">
+                        <h3><a href="https://github.com/Ryan-Menezes/Noticias" title="Código fonte do projeto Notícias" target="_blank">Notícias</a></h3>
+                        <p>Um site para diversos tipos de notícias.</p>
+                        <a href="https://github.com/Ryan-Menezes/Notícias" title="Código fonte do projeto Notícias" target="_blank"><small><i class="fas fa-code"></i> Código Fonte</small></a>
+                    </div>
+                </div>
                 <div class="item">
                     <div class="pj-image">
                         <img src="assets/img/projects/veiculos.jpg" title="Site Veículos" alt="Site Veículos">
@@ -319,7 +363,7 @@
                         </a>
                     </div>
                 </div>
-                <form method="POST" action="" class="seg form-ajax form-validate">
+                <form method="POST" action="https://api.sendgrid.com/v3/mail/send" class="seg form-ajax form-validate">
                     <div class="input-control">
                         <input type="text" name="name" placeholder="Nome" class="input required">
                     </div>
