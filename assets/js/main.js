@@ -7,7 +7,7 @@ $(document).ready(function(){
         margin: 10,
         nav: true,
         dots: false,
-        items: 3,
+        items: 4,
         responsiveClass:true,
         responsive:{
             0:{
@@ -17,7 +17,7 @@ $(document).ready(function(){
                 items: 2
             },
             1000:{
-                items: 3
+                items: 4
             }
         }
     })

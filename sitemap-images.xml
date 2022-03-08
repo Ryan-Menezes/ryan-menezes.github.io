@@ -8,6 +8,18 @@
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
 	      	<image:title>Ryan de Menezes Nobre Ciriaco</image:title>
 	    </image:image>
+		<image:image>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/parking.jpg</image:loc>
+	      	<image:caption>Parking</image:caption>
+	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
+	      	<image:title>Parking</image:title>
+	    </image:image>
+		<image:image>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/lojavirtual.jpg</image:loc>
+	      	<image:caption>Loja Virtual</image:caption>
+	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
+	      	<image:title>Loja Virtual</image:title>
+	    </image:image>
 	    <image:image>
 	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/asteroids.jpg</image:loc>
 	      	<image:caption>Jogo Asteroids</image:caption>

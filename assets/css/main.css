@@ -240,6 +240,10 @@ input.error{
 .gitlab-bg{
     background-color: #292961;
 }
+.social .instagram-bg,
+.instagram-bg{
+    background-color: #dd1054;
+}
 
 /* CONTAINER */
 .container{
@@ -414,11 +418,17 @@ input.error{
 .git-color{
     color: #E34F26;
 }
+.wordpress-color{
+    color: #0073AA;
+}
+.nodejs-color{
+    color: #659D5A;
+}
 
 /* CONTAINER > CONTACT */
 .contac-cont{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 .contac-cont .seg{
     display: flex;
@@ -433,13 +443,18 @@ input.error{
     justify-content: center;
 }
 .contac-cont .seg .c-op .contact-op{
-    width: 60px;
-    height: 60px;
+    padding: 20px;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.contac-cont .seg .c-op .contact-op span{
+    margin-left: 10px;
 }
 .contac-cont .seg a:hover{
     text-decoration: none;
@@ -605,6 +620,15 @@ input.error{
     .timeline .timeline-left,
     .timeline .timeline-right{
         border: none;
+    }
+    .contac-cont .seg .c-op{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contac-cont .seg .c-op .contact-op{
+        margin-bottom: 10px;
     }
 }
 

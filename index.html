@@ -119,6 +119,7 @@
     <!-- START SOCIAL -->
     <div class="social">
         <ul>
+            <a href="https://www.instagram.com/ry4n_menezes/" target="_blank" title="Instagram"><li class="instagram-bg"><i class="fab fa-instagram"></i></li></a>
             <a href="https://www.linkedin.com/in/ryan-menezes-845080201/" target="_blank" title="Linkedin"><li class="linkedin-bg"><i class="fab fa-linkedin-in"></i></li></a>
             <a href="https://github.com/Ryan-Menezes" target="_blank" title="Github"><li><i class="fab fa-github"></i></li></a>
             <a href="https://gitlab.com/Ryan-Menezes" target="_blank" title="Gitlab"><li class="gitlab-bg"><i class="fab fa-gitlab"></i></li></a>
@@ -159,7 +160,7 @@
                 </div>
             </div>
             <div>
-                <p>Jovem desenvolvedor de 18 anos, apaixonado por programação, principalmente pela área da web. No momento utiliza PHP junto com o framework laravel, como linguagem principal de desenvolvimento, porém possui ótimos conhecimento em HTML, CSS, JavaScript e jQuery.</p>
+                <p>Jovem desenvolvedor apaixonado por programação, principalmente pela área da web. No momento utiliza PHP junto com o framework laravel, como linguagem principal de desenvolvimento, porém possui ótimos conhecimento em HTML, CSS, JavaScript e jQuery.</p>
                 <p>Deu seus primeiros passos como programador através do curso Técnico em Desenvolvimento de Sistemas na <a href="http://www.etecjk.com/" title="ETEC Juscelino Kubitschek de Oliveira" target="_blank" rel="nofollow">ETEC Juscelino Kubitschek de Oliveira</a>, na segunda metade de 2019.</p>
                 <p>Extremamente dedicado no que faz, sempre em busca de novos conhecimentos e aprendizados, assim evoluindo dia após dia como profissional.</p>
             </div>
@@ -173,6 +174,26 @@
                 <h2>Projetos</h2>
             </div>
             <div class="projects">
+                <div class="item">
+                    <div class="pj-image">
+                        <img src="assets/img/projects/parking.jpg" title="Parking" alt="Parking">
+                    </div>
+                    <div class="pj-desc">
+                        <h3><a href="https://github.com/Ryan-Menezes/parking" title="Código fonte do projeto Loja Virtual" target="_blank">Parking</a></h3>
+                        <p>Sistema para gerenciamento de um estacionamento</p>
+                        <a href="https://github.com/Ryan-Menezes/parking" title="Código fonte do projeto Parking" target="_blank"><small><i class="fas fa-code"></i> Código Fonte</small></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pj-image">
+                        <img src="assets/img/projects/lojavirtual.jpg" title="Loja Virtual" alt="Loja Virtual">
+                    </div>
+                    <div class="pj-desc">
+                        <h3><a href="https://github.com/Ryan-Menezes/Loja-Virtual" title="Código fonte do projeto Loja Virtual" target="_blank">Loja Virtual</a></h3>
+                        <p>Uma loja virtual simples, para à venda de diversos produtos.</p>
+                        <a href="https://github.com/Ryan-Menezes/Loja-Virtual" title="Código fonte do projeto Loja Virtual" target="_blank"><small><i class="fas fa-code"></i> Código Fonte</small></a>
+                    </div>
+                </div>
                 <div class="item">
                     <div class="pj-image">
                         <img src="assets/img/projects/noticias.jpg" title="Site Notícias" alt="Site Notícias">
@@ -353,6 +374,14 @@
                     <i class="fab fa-git-alt git-color"></i>
                     <h3>GIT</h3>
                 </div>
+                <div class="item">
+                    <i class="fab fa-wordpress wordpress-color"></i>
+                    <h3>WordPress</h3>
+                </div>
+                <div class="item">
+                    <i class="fab fa-node-js nodejs-color"></i>
+                    <h3>Node.JS</h3>
+                </div>
             </div>
         </section>
         <!-- END SKILLS -->
@@ -398,21 +427,22 @@
             </div>
             <div class="contac-cont">
                 <div class="seg">
-                    <h3>Entre em contato preenchendo o formulário, ou por:</h3>
                     <div class="c-op mt-2">
                         <a href="mailto:menezesryan1010@gmail.com" title="Contato por E-Mail" target="_blank" rel="nofollow">
-                            <div class="contact-op mail-bg">
+                            <button class="contact-op mail-bg">
                                 <i class="fas fa-envelope"></i>
-                            </div>
+                                <span><strong>menezesryan1010@gmail.com</strong></span>
+                            </button>
                         </a>
                         <a href="https://wa.me/5511951494155?text=Olá Ryan" title="Contato por WhatsApp" class="ml-1" target="_blank" rel="nofollow">
-                            <div class="contact-op whatsapp-bg">
+                            <button class="contact-op whatsapp-bg">
                                 <i class="fab fa-whatsapp"></i> 
-                            </div>
+                                <span><strong>+55 11 95149-4155</strong></span>
+                            </button>
                         </a>
                     </div>
                 </div>
-                <form method="POST" action="https://api.sendgrid.com/v3/mail/send" class="seg form-ajax form-validate">
+                <!-- <form method="POST" action="https://api.sendgrid.com/v3/mail/send" class="seg form-ajax form-validate">
                     <div class="input-control">
                         <input type="text" name="name" placeholder="Nome" class="input required">
                     </div>
@@ -432,7 +462,7 @@
                     </div>
 
                     <button type="submit" class="btn btn-primary">Enviar <i class="fas fa-share"></i></button>
-                </form>
+                </form> -->
             </div>
         </section>
         <!-- END CONTACT -->
