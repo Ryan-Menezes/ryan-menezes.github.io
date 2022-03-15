@@ -9,6 +9,12 @@
 	      	<image:title>Ryan de Menezes Nobre Ciriaco</image:title>
 	    </image:image>
 		<image:image>
+	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/gallery.jpg</image:loc>
+	      	<image:caption>Gallery</image:caption>
+	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
+	      	<image:title>Gallery</image:title>
+	    </image:image>
+		<image:image>
 	      	<image:loc>https://ryan-menezes.github.io/assets/img/projects/parking.jpg</image:loc>
 	      	<image:caption>Parking</image:caption>
 	      	<image:geo_location>São Paulo, Brazil</image:geo_location>
