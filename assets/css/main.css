@@ -247,8 +247,8 @@ input.error{
 
 /* CONTAINER */
 .container{
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 20%;
 }
 .container .section{
     padding-bottom: 40px;
@@ -340,10 +340,12 @@ input.error{
 /* TIMELINE */
 .timeline{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    margin: auto;
+    border-left: 10px solid #316ff5;
+    position: relative;
 }
 .timeline .timeline-content{
-    text-align: center;
     padding: 20px;
     padding-top: 80px;
     position: relative;
@@ -357,18 +359,6 @@ input.error{
     color: white;
     position: absolute;
     top: 0px;
-}
-.timeline .timeline-left{
-    border-right: 5px solid #316ff5;
-}
-.timeline .timeline-right{
-    border-left: 5px solid #316ff5;
-}
-.timeline .timeline-left .timeline-year{
-    right: 0px;
-}
-.timeline .timeline-right .timeline-year{
-    left: 0px;
 }
 
 /* CONTAINER > SKILLS */
@@ -519,6 +509,10 @@ input.error{
 
 /* RESPONSIVIDADE */
 @media(max-width: 1150px){
+    .container{
+        width: 80%;
+        margin-left: 10%;
+    }
     .projects .item{
         width: 400px;
     }
@@ -617,13 +611,6 @@ input.error{
 }
 
 @media(max-width: 800px){
-    .timeline{
-        grid-template-columns: 1fr;
-    }
-    .timeline .timeline-left,
-    .timeline .timeline-right{
-        border: none;
-    }
     .contac-cont .seg .c-op{
         display: flex;
         flex-direction: column;
