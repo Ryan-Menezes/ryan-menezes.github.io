@@ -122,13 +122,16 @@ input.error{
 .header{
     display: flex;
     flex-direction: column;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    height: 700px;
 }
 .header h2{
     color: white;
 }
 .header .menu{
     padding: 20px 40px;
-    background-color: #1c1c1c;
+    background-color: #222328;
     color: white;
     display: flex;
     align-items: center;
@@ -163,7 +166,7 @@ input.error{
     background-color: #f23022; 
 }
 .header .menu a, .header p{
-    color: #9c9c9c;
+    color: #dad8d8;
 }
 .header .menu ul{
     list-style: none;
@@ -175,15 +178,14 @@ input.error{
     margin: 10px;
 }
 .header .banner{
-    background-image: url('../img/banner.svg');
-    background-size: cover;
-    height: 700px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 70%;
+    margin: auto;
 }
 .header .banner .sep{
-    padding: 0px 80px 150px;
+    padding: 0px 80px;
     color: white;
     font-size: 18px;
 }
@@ -508,6 +510,26 @@ input.error{
 }
 
 /* RESPONSIVIDADE */
+@media(max-width: 1700px){
+    .header .banner .sep{
+        padding: 0px 20px;
+    }
+}
+
+
+@media(max-width: 1400px){
+    .header .banner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+    }
+    .header .banner .sep{
+        padding: 0px;
+    }
+}
+
 @media(max-width: 1150px){
     .container{
         width: 80%;
@@ -575,16 +597,13 @@ input.error{
 }
 
 @media(max-width: 1000px){
-    .header .banner{
+    .header{
         height: 900px;
     }
     .header .banner{
         flex-direction: column-reverse;
         align-items: flex-start;
         justify-content: flex-end;
-    }
-    .header .banner .sep{
-        padding: 0px 40px;
     }
     .footer .info{
         grid-template-columns: repeat(2, 1fr);
