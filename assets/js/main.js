@@ -44,50 +44,6 @@ $(document).ready(function(){
         }
     })
 
-    // FORM SUBMIT AJAX
-    /*
-    $('.form-ajax').submit(async function(event){
-        event.preventDefault()
-
-        let form = this
-        let dataForm = new FormData(form)
-        let data = {
-            'personalizations': [
-                {
-                    'to': [
-                        {
-                            'email': dataForm.get('email')
-                        }
-                    ]
-                }
-            ],
-            'from': {
-                'email': 'menezesryan1010@gmail.com'
-            },
-            'subject': dataForm.get('subject'),
-            'content': [
-                {
-                    'type': 'text/plain', 
-                    'value': dataForm.get('message')
-                }
-            ]
-        }
-
-        let result = await fetch('https://api.sendgrid.com/v3/mail/send', {
-            mode: 'cors',
-            credentials: 'include',
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': 'Bearer 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'
-            },
-            body: JSON.stringify(data)
-        })
-
-        $(form).trigger('reset')
-    })
-    */
-
     // MENU
     $('.open-menu').click(function(){
         let menu = this.dataset.menu
@@ -106,15 +62,11 @@ $(document).ready(function(){
 
         if(top > 500){
             $('.social').show('slow')
-            $('.header .menu').css({
-                position: 'fixed'
-            })
+            $('.header .menu').addClass('fixed')
         }
         else{
             $('.social').hide('slow')
-            $('.header .menu').css({
-                position: 'relative'
-            })
+            $('.header .menu').removeClass('fixed')
         }
     })
 })
