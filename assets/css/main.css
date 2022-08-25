@@ -23,6 +23,10 @@
     color: white;
 }
 
+iframe {
+    border: none;
+}
+
 h1, h2, h3, h4, h5, h6{
     color: #1c1c1c;
 }
@@ -317,7 +321,10 @@ input.error{
 }
 .projects .item .pj-image img{
     width: 100%;
+    height: 300px;
+    object-fit: cover;
     overflow: hidden;
+    border-bottom: 1px solid #d9d9d9;
 }
 .projects .item .pj-desc{
     padding: 20px;
@@ -396,6 +403,17 @@ input.error{
     color: white;
     position: absolute;
     top: 0px;
+}
+
+.timeline .timeline-content .btn {
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 1px solid black;
+    color: black;
+}
+
+.timeline .timeline-content p {
+    margin-bottom: 30px;
 }
 
 /* CONTAINER > SKILLS */
