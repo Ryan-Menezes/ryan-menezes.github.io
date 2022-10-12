@@ -394,6 +394,9 @@ input.error{
     padding-top: 80px;
     position: relative;
 }
+.timeline-content .content {
+    padding-bottom: 20px;
+}
 .timeline .timeline-content h3{
     margin-bottom: 10px;
 }
@@ -403,6 +406,7 @@ input.error{
     color: white;
     position: absolute;
     top: 0px;
+    min-width: 200px;
 }
 
 .timeline .timeline-content .btn {
