@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    AOS.init();
+
     $('.social').hide()
 
     // OWRCAROUSEL
